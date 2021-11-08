@@ -54,9 +54,9 @@ class StylesAndroid implements Styles {
 
   Color borderColor = Colors.grey.shade500;
 
-  BoxDecoration searchBoxDecoration = BoxDecoration(
-    color: Colors.grey.shade100,
-    boxShadow: const <BoxShadow>[
+  BoxDecoration searchBoxDecoration = const BoxDecoration(
+    color: Colors.white,
+    boxShadow: <BoxShadow>[
       BoxShadow(
         color: Colors.black26,
         blurRadius: 2.0,
