@@ -1,16 +1,12 @@
-# native_looking_store
+# Native Looking Store
 
-An app that uses Cupertino theme on IOS and Material theme on Android, for native looking in each platform.
+<img src="https://raw.githubusercontent.com/MarceloDJunior/native_looking_store/main/video-1.gif" alt="drawing" width=200px/>&nbsp;
+<img src="https://raw.githubusercontent.com/MarceloDJunior/native_looking_store/main/video-2.gif" alt="drawing" width=188px/>
+<br/>
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+An app that uses Cupertino theme on IOS and Material theme on Android, for native look and feel in each platform.
 
-A few resources to get you started if this is your first Flutter project:
+The base project was created during the <a href="https://codelabs.developers.google.com/codelabs/flutter-cupertino">Building a Cupertino app with Flutter</a> codelab.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The custom platform aware widgets implement a <strong>Platform-specific Widget Factory</strong>, proposed in this <a href="https://medium.com/flutter/do-flutter-apps-dream-of-platform-aware-widgets-7d7ed7b4624d">article</a> by Swav Kulinski.
