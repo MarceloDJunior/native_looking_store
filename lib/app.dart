@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:native_looking_store/screens/home.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -16,15 +18,18 @@ class CupertinoStoreApp extends StatelessWidget {
     SystemChrome.setSystemUIOverlayStyle(
         const SystemUiOverlayStyle(statusBarColor: Colors.blue));
 
-    return const CupertinoApp(
-      theme: CupertinoThemeData(brightness: Brightness.light),
-      localizationsDelegates: <LocalizationsDelegate<dynamic>>[
-        DefaultMaterialLocalizations.delegate,
-        DefaultWidgetsLocalizations.delegate,
-        DefaultCupertinoLocalizations.delegate,
-      ],
-      debugShowCheckedModeBanner: false,
-      home: Home(),
-    );
+    if (Platform.isIOS) {
+      return const CupertinoApp(
+        theme: CupertinoThemeData(brightness: Brightness.light),
+        debugShowCheckedModeBanner: false,
+        home: Home(),
+      );
+    } else {
+      return MaterialApp(
+        theme: ThemeData(brightness: Brightness.light),
+        debugShowCheckedModeBanner: false,
+        home: const Home(),
+      );
+    }
   }
 }
