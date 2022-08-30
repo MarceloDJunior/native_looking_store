@@ -1,7 +1,7 @@
 # Native Looking Store
 
-<img src="https://raw.githubusercontent.com/MarceloDJunior/native_looking_store/main/video-1.gif" alt="drawing" width=200px/>&nbsp;
-<img src="https://raw.githubusercontent.com/MarceloDJunior/native_looking_store/main/video-2.gif" alt="drawing" width=188px/>
+<img src="https://raw.githubusercontent.com/MarceloDJunior/native_looking_store/main/video-1.gif" alt="drawing" style="width:250px"/>&nbsp;&nbsp;
+<img src="https://raw.githubusercontent.com/MarceloDJunior/native_looking_store/main/video-2.gif" alt="drawing" style="width:250px"/>
 <br/>
 
 
